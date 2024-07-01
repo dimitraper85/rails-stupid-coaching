@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="border">
+    <blockquote>
+      <p><%= params[:question] %></p>
+      <p>- You</p>
+    </blockquote>
+  </div>
+  <div>
+    <blockquote>
+      <p><%= @answer %></p>
+      <p>- Your coach</p>
+    </blockquote>
+  </div>
+    <%= link_to "Ask another question", ask_path %>
+</div>
